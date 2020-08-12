@@ -14,5 +14,9 @@
 - This example draw text lines which contains WiFi SSID and IP address.
 - Sketch: [esp8266_oled_wifi.ino](esp8266_oled_wifi.ino) 
 
+### SIM800L + DS18B20 Temperature Sensor 
+- Logging temperature with GPRS HTTP GET requests.
+- Sketch (**BETA!**): [arduino_gsm_gprs_http_ds18b20.ino](arduino_gsm_gprs_http_ds18b20.ino) 
+
 ## ESP32
 - comming soon...
