@@ -51,9 +51,9 @@ void loop()
   delay(1000);
   ShowSerialData();
  
-  gprsSerial.println("AT+SAPBR=1,1"); //activate bearer profile
+  gprsSerial.println("AT+SAPBR=1,1"); //activate GPRS bearer profile
   Serial.println(" ");
-  Serial.println("Activate bearer profile:");
+  Serial.println("Activate GPRS bearer profile:");
   delay(1000);
   ShowSerialData();
  
@@ -106,6 +106,13 @@ void loop()
 
   gprsSerial.println("AT+HTTPTERM"); //terminate HTTP service
   Serial.println(" ");
+  Serial.println("Terminate HTTP service:");
+  delay(2000);
+  ShowSerialData();
+
+  gprsSerial.println("AT+SAPBR=0,1"); //deactivate GPRS bearer profile
+  Serial.println(" ");
+  Serial.println("Deactivate GPRS bearer profile:");
   delay(2000);
   ShowSerialData();
 
