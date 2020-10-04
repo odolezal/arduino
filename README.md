@@ -19,4 +19,6 @@
 - Sketch (**BETA!**): [arduino_gsm_gprs_http_ds18b20.ino](arduino_gsm_gprs_http_ds18b20.ino) 
 
 ## ESP32
-- comming soon...
+### LilyGO TTGO ESP32 0.96" OLED V2.0 WiFi Module
+- This example draw text lines which contains WiFi SSID and IP address.
+- Sketch: [esp32_oled_wifi.ino](esp32_oled_wifi.ino) 
